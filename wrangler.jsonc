@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ttu-dining-api",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-27",
+  "upload_source_maps": true,
+  "observability": { "enabled": true },
+  "kv_namespaces": [{ "binding": "DINING_CACHE" }],
+  "triggers": { "crons": ["*/30 * * * *"] }
+}

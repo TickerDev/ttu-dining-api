@@ -1,0 +1,27 @@
+{
+  "name": "ttu-dining-api",
+  "version": "1.0.0",
+  "description": "Public Texas Tech dining data API",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.mjs",
+    "collect": "node collect.mjs",
+    "coverage": "node collect.mjs --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "wrangler": "^4.169.0"
+  }
+}
